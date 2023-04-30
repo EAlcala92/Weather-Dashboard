@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather Dashboard</title>
+    </head>
+
+    
+<body>
+    <div class="container">
+    <nav class="navbar">
+        <div class="container-fluid ">
+            <span>Weather Dashboard</span>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-12 col-md-4 row">
+            <h2>Search for a city:</h2>
+            <div class="input-group mb-3 col-12">
+                <input id="citySearch" type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default" placeholder="Search City">
+            </div>
+            <button id="searchBtn" type="button" class="btn" placeholder="City">Search</button>
+            <hr>
+            
+        </div>
+        <div class="col-12 col-md-8 row">
+            <div class="current border">
+                <h2>
+                    <span id="city">City Name</span> 
+                </h2>
+                <h2>
+                    <span id="current-date"></span> 
+                </h2>
+                <p id="temp">Temp: </p>
+                <p id="wind">Wind: </p>
+                <p id="humid">Humidity: </p>
+            </div>
+            <div class="row">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <span class="navbar-brand ">5-Day Forecast:</span>
+                    </div>
+                </nav>
+            </div>
+            <div class="forecast col-2">
+                <p id="date-0"></p>
+                <p id="icon-0"></p>
+                <p id="temp-0"></p>
+                <p id="wind-0"></p>
+                <p id="humid-0"></p>
+            </div>
+                <div class="forecast col-2">
+                    <p id="date-1"></p>
+                    <p id="icon-1"></p>
+                    <p id="temp-1"></p>
+                    <p id="wind-1"></p>
+                    <p id="humid-1"></p>
+                </div>
+                <div class="forecast col-2">
+                    <p id="date-2"></p>
+                    <p id="icon-2"></p>
+                    <p id="temp-2"></p>
+                    <p id="wind-2"></p>
+                    <p id="humid-2"></p>
+                </div>
+                <div class="forecast col-2">
+                    <p id="date-3"></p>
+                    <p id="icon-3"></p>
+                    <p id="temp-3"></p>
+                    <p id="wind-3"></p>
+                    <p id="humid-3"></p>
+                </div>
+                <div class="forecast col-2">
+                    <p id="date-4"></p>
+                    <p id="icon-4"></p>
+                    <p id="temp-4"></p>
+                    <p id="wind-4"></p>
+                    <p id="humid-4"></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
